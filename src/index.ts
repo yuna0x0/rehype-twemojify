@@ -1,6 +1,6 @@
 import twemoji from '@twemoji/api';
 import emojiRegex from 'emoji-regex';
-import type { Content, ElementContent, Root, RootContent } from 'hast';
+import type { ElementContent, Root, RootContent } from 'hast';
 import replaceToArray from 'string-replace-to-array';
 import type { Plugin, Transformer } from 'unified';
 import { map } from 'unist-util-map';
@@ -112,7 +112,7 @@ function makeTransformer(options: Options): Transformer<Root, Root> {
             };
           });
 
-          const result: Content = {
+          const result: RootContent = {
             type: 'element',
             tagName: 'span',
             properties: {},
