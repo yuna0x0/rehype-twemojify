@@ -1,6 +1,6 @@
 {
-  "name": "rehype-twemojify",
-  "version": "4.0.5",
+  "name": "@yuna0x0/rehype-twemojify",
+  "version": "4.1.0",
   "type": "module",
   "keywords": [
     "remark",
@@ -29,9 +29,15 @@
     "watch": "parcel watch",
     "ci": "pnpm build && pnpm test && pnpm lint"
   },
-  "repository": "git@github.com:cliid/rehype-twemojify.git",
-  "homepage": "https://github.com/cliid/rehype-twemojify",
-  "author": "cliid <cliid@protonmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuna0x0/rehype-twemojify.git"
+  },
+  "homepage": "https://github.com/yuna0x0/rehype-twemojify",
+  "contributors": [
+    "cliid <cliid@protonmail.com>",
+    "yuna0x0 <yuna@yuna0x0.com>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
